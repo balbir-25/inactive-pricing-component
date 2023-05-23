@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png" type="image/x-icon">
+    <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+<body>
+    <!-- =========================START MAIN AREA================================= -->
+    <main id="site">
+    <!-- =========================START HEADER AREA=============================== -->
+    <header id="header">
+        <div class="header-info">
+            <h1 class="header-h1">Simple, traffic-based pricing</h1>
+            <span class="header-span">Sign-up for our 30-day trial. No credit card required.</span>
+        </div>
+    </header>
+    <!-- =========================END HEADER AREA=============================== -->
+    <!-- =========================START INFO AREA================================ -->
+    <div id="info">
+        <div class="info-div1">
+            <p id="page">100K <span class="pack-span">Pageviews</span></p>
+            <h2 class="info-h2">$<span id="price">16.00</span><sup class="price-sup">/month</sup></h2>
+        </div>
+        <input type="range" name="range" id="range" min="10" max="100" value="54" step="10">
+        <div class="info-div2">
+            <span class="month">Monthly Billing</span>
+            <label class="switch">
+                <input type="checkbox" id="select">
+                <span class="slider"></span>
+              </label>
+            <p class="year">Yearly Billing <span class="year-span">25% discount</span></p>
+        </div>
+        <hr>
+        <div class="info-div3">
+            <ul class="info-ul">
+                <li class="info-li"><img src="./images/icon-check.svg" alt="check" class="li-img">Unlimited websites</li>
+                <li class="info-li"><img src="./images/icon-check.svg" alt="check" class="li-img">100% data ownership</li>
+                <li class="info-li"><img src="./images/icon-check.svg" alt="check" class="li-img">Email reports
+                </li>
+            </ul>
+            <input type="button" value="Start my trial" id="btn">
+        </div>
+    </div>
+    <!-- =========================END INFO AREA================================ -->
+    </main>
+    <!-- =========================END MAIN AREA================================= -->
+        <!-- ================================START FOOTER AREA========================= -->
+        <footer class="foot">
+            Challenge by
+            <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+              >Frontend Mentor</a
+            >. Coded by
+            <a href="http://balbir-portfolio.liveblog365.com/" target="_blank"
+              >Balbir Singh</a
+            >.
+          </footer>
+          <!-- ================================END FOOTER AREA========================= -->
+</body>
+<script src="./script.js"></script>
+</html>
